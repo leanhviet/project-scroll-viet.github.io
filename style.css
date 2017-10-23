@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0px;}
+/* xử lý ha1*/
+.ha1{
+	background-image: url(4.jpg);
+	height: 600px;
+	width: 100%;
+	background-size: cover;
+	background-position-x: -100px;
+	background-attachment: fixed;
+}
+.ha1 .content{
+	width: 1200px;
+	text-align: right;
+	padding-top: 220px;
+}
+.txtChunho{
+	font-size: 18px;
+}
+.txtChuTo{
+	padding-top: 20px;
+	font-size: 65px;
+}
+.btn{
+	margin-top: 70px;
+	padding: 15px 30px;
+	background-color: black;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+.ha1 .btn:hover{
+	background-color: transparent;
+	border: 1px solid black;
+	color: black;
+}
+/*-----ha2-----*/
+.ha2{
+	background-image: url(5.jpg);
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	text-align: center;
+	background-attachment: fixed;
+}
+.ha2 .txtChunho{
+	color: white;
+	padding-top: 200px;
+}
+.ha2 .txtChuTo{
+	color: white;
+}
+.ha2 .txtbottom{
+	color: white;
+	margin-top: 40px;
+}
+.ha2 .btn{
+	border: 1px solid white;
+	background-color: transparent;
+}
+.ha2 .btn:hover{
+	background-color: white;
+	color: black;
+}
+/*--------ha3----------*/
+.ha3{
+	background-image: url(2.jpg);
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	text-align: left;
+	background-attachment: fixed;
+}
+.ha3 .content{
+	margin-left: 100px;
+}
+.ha3 .txtChunho{
+	padding-top: 320px;
+}
+.ha3 .btn{
+	background-color: transparent;
+	color: black;
+	border: 1px solid black;
+}
+.ha3 .btn:hover{
+	background-color: black;
+	color: white;
+}
+/*---------ha4--------*/
+.ha4{
+	background-image: url(3.jpg);
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	text-align: center;
+	background-attachment: fixed;
+}
+.ha4 .txtChunho{color: white;padding-top: 250px;}
+.ha4 .txtChuTo{color: white;}
+.ha4 .txtbottom{color: white;margin-top: 40px;}
+.ha4 .btn{
+	background-color: transparent;
+	border: 1px solid white;	
+}
+.ha4 .btn:hover{
+	background-color: white;
+	color: black;
+}
+
+
